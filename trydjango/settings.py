@@ -14,7 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+# The folder that host manage.py
+# /Users/hsichengyun/pyprac/trydjango/trydjango/manage.py
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -37,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # put the third party apps or your own apps here
 ]
+# Think of it as components for the whole django project
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
